@@ -1,0 +1,33 @@
+/* :root {
+    --clrWhite: #fff;
+    --clrDark: #222;
+    --clrLighter: #575153;
+    --clrTextMuted: #727272;
+    --clrTextButton: #454647;
+    --clrHover: #00c8c8;
+
+    --bgDark: #333;
+    --bgHover: #00c8c8;
+}
+} */
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  // max-width: 100%;
+}
