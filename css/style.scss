@@ -118,8 +118,9 @@ $boxShadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .nav {
-  padding: 4rem 13.5rem 0 13.5rem;
-  height: 3rem;
+  padding: 2.5rem 13.5rem;
+  // height: 3rem;
+  // fix height and padding for nav bar
 
   display: flex;
   justify-content: space-between;
