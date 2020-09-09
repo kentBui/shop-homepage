@@ -33,9 +33,9 @@ $boxShadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 .footer {
   max-width: 205rem;
   margin: 0 auto;
-  @include laptop() {
-    width: 100%;
-  }
+  // @include laptop() {
+  //   width: 100%;
+  // }
 }
 
 .nav-top {
@@ -118,7 +118,9 @@ $boxShadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .nav {
-  padding: 2.5rem 13.5rem;
+  max-width: 177rem;
+  margin: 0 auto;
+  padding: 2.5rem 0rem;
   // height: 3rem;
   // fix height and padding for nav bar
 
@@ -264,7 +266,7 @@ $boxShadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     position: relative;
 
     .search-input {
-      width: calc(19rem - 0.1rem - 1rem);
+      width: calc(19rem - 0.2rem - 1rem);
       padding: 0.6rem 0 0.6rem 1rem;
       border: 0.05rem solid $clrText1;
 
